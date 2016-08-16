@@ -53,7 +53,9 @@ public class Carro {
 		
 		if (this.vAtual > this.vMax){
 			this.vAtual = this.vMax;
+			System.out.println("");
 			System.out.println("Velocidade Máxima excedida, velocidade atual = "+ this.vAtual + "KM");
+			System.out.println("");
 		}
 
 	}
