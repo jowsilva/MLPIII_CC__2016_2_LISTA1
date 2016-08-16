@@ -27,9 +27,12 @@ public class Main {
 		System.out.println("Carro: " + carro.getModelo() + " - Cor: " + carro.getCor() + "- Velocidade Inicial: "
 				+ carro.getvAtual() + "KM - Velocidade Máxima: " + carro.getvMax() + "KM.");
 		carro.Acelerar(aceleracao);
+
+		System.out.println("");
+
 		System.out.println("Carro: " + carro.getModelo() + " - Cor: " + carro.getCor() + " - Velocidade Atual: "
 				+ carro.getvAtual() + "KM - Velocidade Máxima: " + carro.getvMax() + "KM.");
-		
+
 		leitor.close();
 
 	}
