@@ -1,4 +1,4 @@
-package br.unipe.jowsilva;
+package br.unipe.jowsilva.ex01;
 
 public class Fatura {
 
@@ -28,7 +28,11 @@ public class Fatura {
 	}
 
 	public void setQtd(int qtd) {
-		this.qtd = qtd;
+		if (qtd < 0) {
+			this.qtd = 0;
+		} else {
+			this.qtd = qtd;
+		}
 	}
 
 	public double getPreco() {
@@ -36,7 +40,11 @@ public class Fatura {
 	}
 
 	public void setPreco(double preco) {
-		this.preco = preco;
+		if (preco < 0) {
+			this.preco = 0;
+		} else {
+			this.preco = preco;
+		}
 	}
 
 	public double getValorFatura() {
@@ -45,7 +53,7 @@ public class Fatura {
 		return valor;
 	}
 
-	public Fatura(){
-		
+	public Fatura() {
+
 	}
 }

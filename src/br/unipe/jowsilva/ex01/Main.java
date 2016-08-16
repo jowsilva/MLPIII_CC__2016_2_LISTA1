@@ -1,4 +1,4 @@
-package br.unipe.jowsilva;
+package br.unipe.jowsilva.ex01;
 
 import java.util.Scanner;
 
