@@ -30,7 +30,7 @@ public class Main {
 			carga.setMarca("Ford");
 			carga.setModelo("F4000");
 			carga.setAno(1992);
-			carga.setValorKmRodado(5.00);
+			carga.setValorKmRodado(10.00);
 			carga.setChaci("9BWZZZ377VT004251");
 
 			proprietario.setNome("José William");
