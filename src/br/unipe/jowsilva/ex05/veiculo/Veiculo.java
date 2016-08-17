@@ -12,8 +12,8 @@ public class Veiculo {
 	private int kmInicial;
 	private int kmFinal;
 	private double valorLocacao;
-	private String chaci;
-	Pessoa proprietario = new Pessoa();
+	private String chassi;
+	private Pessoa proprietario;
 
 	public String getPlaca() {
 		return placa;
@@ -80,11 +80,28 @@ public class Veiculo {
 	}
 
 	public String getChaci() {
-		return chaci;
+		return chassi;
 	}
 
 	public void setChaci(String chaci) {
-		this.chaci = chaci;
+		this.chassi = chaci;
+	}
+
+	public Pessoa getProprietario() {
+		return proprietario;
+	}
+
+	public void setProprietario(Pessoa proprietario) {
+		this.proprietario = proprietario;
+	}
+
+	public double CalculaValor(int kmInicial, int kmFinal, double valorKmRodado) {
+
+		double valor;
+
+		valor = (kmFinal - kmInicial) * valorKmRodado;
+
+		return valor;
 	}
 
 	public Veiculo() {
