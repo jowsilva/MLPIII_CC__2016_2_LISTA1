@@ -68,7 +68,11 @@ public class Veiculo {
 	}
 
 	public void setKmFinal(int kmFinal) {
-		this.kmFinal = kmFinal;
+		if (kmFinal < this.kmInicial) {
+			this.kmFinal = this.kmInicial;
+		} else {
+			this.kmFinal = kmFinal;
+		}
 	}
 
 	public double getValorLocacao() {
