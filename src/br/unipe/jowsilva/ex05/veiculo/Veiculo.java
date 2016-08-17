@@ -1,4 +1,6 @@
-package br.unipe.jowsilva.ex05;
+package br.unipe.jowsilva.ex05.veiculo;
+
+import br.unipe.jowsilva.ex05.pessoa.Pessoa;
 
 public class Veiculo {
 

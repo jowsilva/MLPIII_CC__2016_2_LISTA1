@@ -1,4 +1,4 @@
-package br.unipe.jowsilva.ex02;
+package br.unipe.jowsilva.ex02.carro;
 
 public class Carro {
 

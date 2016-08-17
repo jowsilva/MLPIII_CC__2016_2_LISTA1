@@ -1,4 +1,4 @@
-package br.unipe.jowsilva.ex05;
+package br.unipe.jowsilva.ex05.pessoa;
 
 public class Pessoa {
 

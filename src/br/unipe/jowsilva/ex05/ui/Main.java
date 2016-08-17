@@ -1,4 +1,4 @@
-package br.unipe.jowsilva.ex05;
+package br.unipe.jowsilva.ex05.ui;
 
 public class Main {
 	

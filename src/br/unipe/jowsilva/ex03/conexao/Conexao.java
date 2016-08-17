@@ -1,4 +1,4 @@
-package br.unipe.jowsilva.ex03;
+package br.unipe.jowsilva.ex03.conexao;
 
 public class Conexao {
 

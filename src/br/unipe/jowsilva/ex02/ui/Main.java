@@ -1,6 +1,8 @@
-package br.unipe.jowsilva.ex02;
+package br.unipe.jowsilva.ex02.ui;
 
 import java.util.Scanner;
+
+import br.unipe.jowsilva.ex02.carro.Carro;
 
 public class Main {
 

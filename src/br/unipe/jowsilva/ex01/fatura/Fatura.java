@@ -1,4 +1,4 @@
-package br.unipe.jowsilva.ex01;
+package br.unipe.jowsilva.ex01.fatura;
 
 public class Fatura {
 

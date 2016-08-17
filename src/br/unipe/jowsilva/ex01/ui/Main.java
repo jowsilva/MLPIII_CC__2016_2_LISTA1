@@ -1,6 +1,8 @@
-package br.unipe.jowsilva.ex01;
+package br.unipe.jowsilva.ex01.ui;
 
 import java.util.Scanner;
+
+import br.unipe.jowsilva.ex01.fatura.Fatura;
 
 public class Main {
 
